@@ -1,0 +1,21 @@
+# data.yaml
+path: D:\yolo\yolo11\ultralytics\models # 数据集根目录
+train: images/train     # 训练集路径
+val: images/val         # 验证集路径
+
+# 类别信息
+names:
+  0: Aphid                # 蚜虫
+  1: Whitefly             # 白粉虱
+  2: Spider_Mite          # 红蜘蛛/叶螨
+  3: Caterpillar          # 毛虫/幼虫
+  4: Thrips               # 蓟马
+  5: Mealybug             # 粉蚧
+  6: Scale_Insect         # 介壳虫
+  7: Leaf_Miner           # 潜叶蝇
+  8: Rust                 # 锈病
+  9: Powdery_Mildew       # 白粉病
+  10: Downy_Mildew        # 霜霉病
+  11: Blight              # 枯萎病
+  12: Nematode            # 线虫
+  13: Fruit_Fly           # 果蝇
